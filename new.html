@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+</head>
+<body>
+<div class="box">
+<div class="top">
+				<div class="top_left">
+					您好，欢迎来到邢台贝迪宠物食品有限公司
+				</div>
+				<div class="top_right">
+					加入收藏&nbsp;邢台宠物食品
+				</div>
+			</div>
+			<div class="log">
+				<div class="log_left">
+					<img src="img/20171124153614_877.png"/>
+				</div>
+				<div class="log_right">
+					<div class="log_right_left">
+						全天然配方<br>
+						真材实料
+					</div>
+					<div class="log_right_right">
+						全国服务热线：400－101－0389
+					</div>
+				</div>
+			</div>
+			<div class="nav">
+				<ul>
+					<li></li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'">
+						<a href="index.html">公司首页</a>
+					</li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'">
+						<a href="Introduction.html">公司简介</a>
+					</li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'">
+						<a href="pro.html">产品展示</a>
+					</li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'">
+						<a href="new.html">新闻动态</a>
+					</li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'">
+						<a href="picts.html">企业相册</a>
+					</li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'">
+						<a href="glory.html">荣誉展示</a>
+					</li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'">
+						<a href="gth.html">联系我们</a>
+					</li>
+					<li onmouseover="this.style.backgroundColor='darkblue'" onmouseout="this.style.backgroundColor='#00539C'"></li>
+				</ul>
+			</div>
+<div class="imgBox">
+    <img class="img-slide img1" src="img/1.jpg" height="504" width="1430" alt="1">
+    <img class="img-slide img2" src="img/2.jpg" alt="2">
+    <img class="img-slide img3" src="img/3.jpg" alt="3">
+</div>
+<div class="int_total">
+<div class="int_nav">
+	<ul>
+		<li><p style="white">产品展示</p></li>
+		<li><img src="img/08145714856.jpg" width="193px" height="184px"></li>
+		<li><p style="white">文章分类</p></li>
+		<li><a href="index.html">行业动态</a></li>
+		<li><a href="new.html">公司新闻</a></li>
+	</ul>
+</div>
+
+<div class="int_right">
+	<a href="index.html" class="a1">首页</a>><a href="new.html" class="a1">新闻动态</a>
+	<div>
+		<p class="p1">文章</p>
+		<ul>
+			<li class="li1"> <a href="new1.html">注意狗狗饮食的合理搭配</a><span>2018-06-06</span></li>
+			<li class="li1"> <a href="new2.html">养犬是需要认真对待的事</a><span>2018-05-08</span></li>
+			<li class="li1"> <a href="new3.html">宠物食品行业正在迅速成长</a><span>2018-04-23</span></li>
+			<li class="li1"> <a href="new4.html">目前中国宠物食品现状分析</a><span>2018-04-19</span></li>
+			<li class="li1"> <a href="new5.html">宠物食品与宠物经济</a><span>2018-02-08</span></li>
+			
+			<li class="li1"> <a href="new6.html">宠物食品选择的重要性</a><span>2018-03-20</span></li>
+			
+			<li class="li1"> <a href="new7.html">中国宠物市场的组成</a><span>2018-02-08</span></li>
+			<li class="li1"> <a href="new8.html">贝迪宠物食品网站上线</a><span>2018-03-26</span></li>
+		</ul>
+	</div>
+</div>
+</div>
+<div class="bottom">
+				<div class="bottom_top">
+					<p><a href="Introduction.html" style="color: white;">关于我们</a></p>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<p><a href="gth.html" style="color: white;">联系我们</a></p>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<p onclick="shoucang()">收藏网站</p>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<p><a href="gth.html" style="color: white;">网站地图</a></p>
+				</div>
+				<div class="bottom_bottom">
+					<p>邢台贝迪宠物食品公司是邢台任县主要生产宠物食品，猫粮、狗粮的厂家。其产品市场主要为河北省。联系电话0319-7518086 版权所有：邢台贝迪宠物食品有限公司</p>
+					<p>技术支持：贝迪集团</p>
+				</div>
+				<div class="bottom_beian">
+					<p>备案/许可证编号：冀ICP备2021005843号</p>
+				</div>
+			</div>
+	</div>
+</body>
+<script type="text/javascript">
+    var index=0;
+    //改变图片
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,2500);
+    function shoucang(){
+    	alert("您可以通过快捷键 ctrl + D 加入到收藏夹");
+    }
+</script>
+</html>
